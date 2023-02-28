@@ -9,6 +9,7 @@ import { BookComponent } from './book/book.component';
 import { FormsModule } from '@angular/forms';
 import { BooksService } from './services/books.service';
 import { StartComponent } from './start.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { StartComponent } from './start.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [
     BooksService
